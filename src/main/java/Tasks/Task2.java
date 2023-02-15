@@ -19,7 +19,6 @@ public class Task2 {
         double average = FindAverage(list2);
         System.out.printf("Среднее арифметическое значение - %s", average);
 
-
     }
     public static int FindMin(ArrayList<Integer> list1){
         list1.sort(Comparator.naturalOrder());
